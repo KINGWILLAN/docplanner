@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 20px 50px 20px 50px;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  /* border: 4px solid gold; */
+}
+
+#nav-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#doclogo {
+  width: 263px;
+  height: 33px;
+}
+
+.navtools {
+  display: flex;
+}
+
+.navtools > a {
+  text-decoration: none;
+  color: #00ccb1;
+  gap: 1rem;
+  font-size: 20px;
+  font-weight: 4000;
+  font-style: bold;
+}
+
+#ologo {
+  height: 40px;
+  width: 40px;
+}
+
+.leadsec {
+  border: 4px solid gold;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0;
+}
+
+.leadsec > p {
+  height: 80.6px;
+  width: 712.6px;
+  font-size: xx-large;
+  font-weight: 500;
+  max-width: 100%;
+  color: #00ccb1;
+}
+
+#sect4 {
+  border: 4px solid greenyellow;
+  padding: 0 0 0 0;
+  /* max-width: 100px; */
+  display: flex;
+  justify-content: center;
+}
+/* 
+#sect4 > div {
+  height: 40px;
+  width: 40px;
+  border: 4px solid gold;
+} */
+
+#sect4 > div {
+  width: 540px;
+  height: 100px;
+  padding: 0 0 0 0;
+}
+
+#sect5 {
+  border: 4px solid greenyellow;
+
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 0;
+}
+
+#sect5 > div {
+  border: 4px solid greenyellow;
+
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#sect6 {
+  border: 4px solid greenyellow;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+}
+
+#sect6 > div {
+  border: 4px solid greenyellow;
+
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#sect6 > div {
+  display: flex;
+}
+
+#sect6 > div > div {
+  border: 4px solid greenyellow;
+
+  height: 20px;
+  width: 20px;
+}
+
+#sect7 {
+  border: 4px solid greenyellow;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: center;
+}
+
+#sect7 > div {
+  border: 4px solid greenyellow;
+
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#sect7 > div {
+  display: flex;
+}
+
+#sect7 > div > div {
+  border: 4px solid greenyellow;
+
+  height: 20px;
+  width: 20px;
+}
+
+#lion {
+  height: 100px;
+  width: 150px;
+  display: grid;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+}
+
+.twoparagraphs {
+  border: 4px solid gold;
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  color: #747474;
+  /* height: 200px;
+  width: 228px; */
+}
+
+#headerlogo {
+  height: 33px;
+  width: 40px;
+  aspect-ratio: 40 / 40;
+  vertical-align: middle;
+  border: 0;
+}
+.foresec {
+  border: 4px solid gold;
+  display: flex;
+}
